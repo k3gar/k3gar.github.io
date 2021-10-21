@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ecc3181e.chunk.css",
-    "main.js": "/static/js/main.dc4e6df5.chunk.js",
-    "main.js.map": "/static/js/main.dc4e6df5.chunk.js.map",
+    "main.css": "/static/css/main.551a2b54.chunk.css",
+    "main.js": "/static/js/main.db6d9309.chunk.js",
+    "main.js.map": "/static/js/main.db6d9309.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e2a6dd23.js",
     "runtime-main.js.map": "/static/js/runtime-main.e2a6dd23.js.map",
     "static/js/2.c7c53959.chunk.js": "/static/js/2.c7c53959.chunk.js",
     "static/js/2.c7c53959.chunk.js.map": "/static/js/2.c7c53959.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ecc3181e.chunk.css.map": "/static/css/main.ecc3181e.chunk.css.map",
+    "static/css/main.551a2b54.chunk.css.map": "/static/css/main.551a2b54.chunk.css.map",
     "static/js/2.c7c53959.chunk.js.LICENSE.txt": "/static/js/2.c7c53959.chunk.js.LICENSE.txt",
     "static/media/css.3810c8be.png": "/static/media/css.3810c8be.png",
     "static/media/estrella.e55f506d.png": "/static/media/estrella.e55f506d.png",
+    "static/media/index.css": "/static/media/twitter.ba015681.png",
     "static/media/html.6f28a9e2.png": "/static/media/html.6f28a9e2.png",
     "static/media/illustrator.6b3b13b2.png": "/static/media/illustrator.6b3b13b2.png",
     "static/media/javascript.38323140.png": "/static/media/javascript.38323140.png",
@@ -25,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.e2a6dd23.js",
     "static/js/2.c7c53959.chunk.js",
-    "static/css/main.ecc3181e.chunk.css",
-    "static/js/main.dc4e6df5.chunk.js"
+    "static/css/main.551a2b54.chunk.css",
+    "static/js/main.db6d9309.chunk.js"
   ]
 }
