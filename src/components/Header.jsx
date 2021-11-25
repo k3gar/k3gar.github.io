@@ -3,7 +3,7 @@ import React from 'react';
 import menuLogo from './img/menu_black_prueba.svg'
 import avatar from './img/flork-white.svg'
 
-const navMenu = document.querySelector(".nav-menu");
+/* const navMenu = document.querySelector(".nav-menu");
 const hamburger = document.querySelector(".hamburger");
 
 
@@ -11,7 +11,7 @@ hamburger.addEventListener("click", activarMenu);
 
 function activarMenu(){
 navMenu.classList.toggle("active");
-}
+} */
 export const Header = () => {
     
     return (
