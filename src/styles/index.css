@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +16,7 @@ header {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  font-family: "Quicksand";
 }
 
 li {
@@ -23,12 +25,24 @@ li {
 
 a {
   text-decoration: none;
+  font-size: 1.5rem;
+  margin: 0 8px 0;
+  color: black;
+  font-weight: 300;
+}
+
+a:hover {
+  border-bottom: #111111 solid 1px;
 }
 
 /* .menu-button {
     display: none;
 } */
 .hamburger {
+  display: none;
+}
+
+.avatar-menu {
   display: none;
 }
 
@@ -53,28 +67,32 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 30px;
 }
 
+/* This 👇 */
 .main_one {
   width: 100%;
   height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
+/* This 👇 */
+.main_one > img {
+  width: 20%;
+}
+
+/* This 👇 */
 .main_one-text {
   height: 100%;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,12 +103,15 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 40px 0 0 0;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .main_one .main_one-text > p {
   font-family: "Quicksand";
-  font-size: 1.4rem;
+  font-size: 3.5rem;
+  text-align: initial;
 }
 
 .main_one .main_one-text > p > span {
@@ -99,6 +120,7 @@ a {
 }
 
 .main_one-button {
+  width: 285px;
   color: white;
   background-color: black;
   text-decoration: none;
@@ -256,15 +278,17 @@ a {
   .hamburger {
     display: block;
     cursor: pointer;
-    z-index: 1;
+    z-index: 2;
+    margin-right: 10px;
+  }
+
+  .hamburger.active {
+    position: fixed;
+    /* right: 10px; */
   }
 
   .bar {
     background-color: #000000;
-  }
-
-  .bar.active {
-    background-color: #ffffff;
   }
 
   .nav-menu {
@@ -276,13 +300,14 @@ a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #4d4848;
+    background-color: black;
     width: 100%;
     height: 100%;
-    left: -100%;
+    right: -100%;
     top: 0;
-    -webkit-transition: 0.9s;
-    transition: 0.9s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin-right: 0;
   }
 
   .avatar-menu {
@@ -304,6 +329,84 @@ a {
   }
 
   .nav-menu.active {
-    left: 0;
+    right: 0;
+  }
+
+  /* Main One */
+  .main_one {
+    width: 100%;
+    height: 90vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .main_one-text {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 40px 0 0 0;
+  }
+
+  .main_one .main_one-text > p {
+    font-family: "Quicksand";
+    font-size: 1.4rem;
+  }
+
+  .main_one .main_one-text > p > span {
+    font-family: "Montserrat";
+    font-weight: bold;
+  }
+
+  .main_one-button {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    margin: 40px 0 10px 0;
+    padding: 10px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    border: 1px solid #040404;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 14px;
+  }
+
+  .main_one-button:active {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    margin: 40px 0 10px 0;
+    padding: 10px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    border: 1px solid #040404;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 14px;
   }
 }

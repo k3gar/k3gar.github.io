@@ -36,7 +36,7 @@ function App() {
             </section>
             <section className='main_two-pics'>
                 <section className='main_two-pics-logos'>
-                    <img src={css} alt="" srcset="" />
+                    <img src={css} alt="" />
                     <img src={estrella} alt="" />
                     <img src={html} alt="" />
                     <img src={illustrator} alt="" />

@@ -1,40 +1,33 @@
-import React, {Component} from 'react';
-//import menuLogo from './assets/menu.png';
-//import menuLogo from './img/menu_black_prueba.svg'
-import avatar from './img/flork-white.svg'
+import React from 'react';
+import menuLogoBlack from './img/menu_black_prueba.svg';
+import menuLogoWhite from './img/menu_white_prueba.svg';
 
-/* const navMenu = document.querySelector(".nav-menu");
-const hamburger = document.querySelector(".hamburger");
+//import menuLogo from './img/menu-black.svg';
+import avatar from './img/flork-white.svg';
+import {useState} from 'react';
 
-
-hamburger.addEventListener("click", activarMenu);
-
-function activarMenu(){
-navMenu.classList.toggle("active");
-} */
 
 function prueba(){
     const navMenu = document.querySelector(".nav-menu");
     const hamburger = document.querySelector(".hamburger");
-    const bar = document.querySelectorAll("span.bar");
-
-    hamburger.addEventListener("click", [navMenu.classList.toggle("active"), console.log('Click')]);
-
-    /* hamburger.addEventListener("click", activarMenu);
-    function activarMenu(){
-    navMenu.classList.toggle("active");
-    } */
+    
+    hamburger.addEventListener("click", [navMenu.classList.toggle("active"), hamburger.classList.toggle("active")]);
+    
 }
 
 export const Header = () => {   
+    const [logo, setLogo] = useState(true);
+    const validar = () => {
+        if(logo == true){
+            setLogo(false);
+        }else{
+            setLogo(true);
+        }
+    }
+    
     return (
         <header>
-            {/* <img src={menuLogo} alt="Prueba" className='hamburger' onClick={prueba} /> */}
-            <div className="hamburger" onClick={prueba}>
-                <span className="bar"></span>
-                <span className="bar"></span>
-                <span className="bar"></span>
-            </div>
+            <img src={logo ? menuLogoBlack : menuLogoWhite} alt="Prueba" className='hamburger' onClick={() => {prueba(); validar()}} />
             <ul className="nav-menu">
                 <li className="nav-item">
                     <a href="https://www.facebook.com/" className="nav-link">Home</a>

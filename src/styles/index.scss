@@ -11,6 +11,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    font-family: $font-text;
 }
 li {
     list-style: none;
@@ -18,6 +19,13 @@ li {
 
 a {
     text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0 8px 0;
+    color: black;
+    font-weight: 300;
+}
+a:hover {
+    border-bottom: rgb(17, 17, 17) solid 1px;
 }
 
 /* .menu-button {
@@ -25,6 +33,9 @@ a {
 } */
 
 .hamburger {
+    display: none;
+}
+.avatar-menu {
     display: none;
 }
 
@@ -43,33 +54,43 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 30px;
 }
 
+/* This 👇 */
 .main_one {
     width: 100%;
     height: 90vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
+/* This 👇 */
+.main_one > img {
+    width: 20%;
+}
+
+/* This 👇 */
 .main_one-text {
     height: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 40px 0 0 0;
+    align-items: flex-start;
 }
 .main_one .main_one-text > p {
     font-family: $font-text;
-    font-size: 1.4rem;
+    font-size: 3.5rem;
+    text-align: initial;
 }
 .main_one .main_one-text > p > span {
     font-family: $font-title;
     font-weight: bold;
 }
 .main_one-button {
+    width: 285px;
     color: white;
     background-color: black;
     text-decoration: none;
@@ -197,24 +218,27 @@ a {
     .hamburger {
         display: block;
         cursor: pointer;
-        z-index: 1;
+        z-index: 2;
+        margin-right: 10px;
+    }
+    .hamburger.active {
+        position: fixed;
+        /* right: 10px; */
     }
     .bar {
         background-color: #000000;
-    }
-    .bar.active {
-        background-color: #ffffff;
     }
     .nav-menu {
         position: fixed;
         flex-direction: column;
         justify-content: center;
-        background-color: rgb(77, 72, 72);
+        background-color: rgb(0, 0, 0);
         width: 100%;
         height: 100%;
-        left: -100%;
+        right: -100%;
         top: 0;
-        transition: 0.9s;
+        transition: 0.5s;
+        margin-right: 0;
     }
     .avatar-menu {
         position: absolute;
@@ -233,6 +257,61 @@ a {
         margin: 25px 0;
     }
     .nav-menu.active {
-        left: 0;
+        right: 0;
+    }
+    /* Main One */
+    .main_one {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main_one-text {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px 0 0 0;
+    }
+    .main_one .main_one-text > p {
+        font-family: $font-text;
+        font-size: 1.4rem;
+    }
+    .main_one .main_one-text > p > span {
+        font-family: $font-title;
+        font-weight: bold;
+    }
+    .main_one-button {
+        color: white;
+        background-color: black;
+        text-decoration: none;
+        margin: 40px 0 10px 0;
+        padding: 10px;
+        font-family: $font-text;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+        border: 1px solid #040404;
+        box-sizing: border-box;
+        border-radius: 14px;
+    }
+    .main_one-button:active {
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        margin: 40px 0 10px 0;
+        padding: 10px;
+        font-family: $font-text;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        border: 1px solid #040404;
+        box-sizing: border-box;
+        border-radius: 14px;
     }
 }
