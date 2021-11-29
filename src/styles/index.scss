@@ -244,6 +244,7 @@ a:hover {
         position: absolute;
         right: 0;
         bottom: 0;
+        display: block;
     }
 
     .nav-item {
@@ -275,10 +276,12 @@ a:hover {
         flex-direction: column;
         justify-content: center;
         padding: 40px 0 0 0;
+        align-items: center;
     }
     .main_one .main_one-text > p {
         font-family: $font-text;
         font-size: 1.4rem;
+        text-align: center;
     }
     .main_one .main_one-text > p > span {
         font-family: $font-title;

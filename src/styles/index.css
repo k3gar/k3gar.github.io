@@ -314,6 +314,7 @@ a:hover {
     position: absolute;
     right: 0;
     bottom: 0;
+    display: block;
   }
 
   .nav-item {
@@ -364,11 +365,15 @@ a:hover {
         -ms-flex-pack: center;
             justify-content: center;
     padding: 40px 0 0 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 
   .main_one .main_one-text > p {
     font-family: "Quicksand";
     font-size: 1.4rem;
+    text-align: center;
   }
 
   .main_one .main_one-text > p > span {
