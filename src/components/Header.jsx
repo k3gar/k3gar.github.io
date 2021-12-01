@@ -18,7 +18,7 @@ function prueba(){
 export const Header = () => {   
     const [logo, setLogo] = useState(true);
     const validar = () => {
-        if(logo == true){
+        if(logo === true){
             setLogo(false);
         }else{
             setLogo(true);

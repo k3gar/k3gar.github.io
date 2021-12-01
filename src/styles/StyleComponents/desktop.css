@@ -4,11 +4,6 @@
   padding: 0;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 header {
   width: 100%;
   height: 10vh;
@@ -179,8 +174,7 @@ a:hover {
   font-style: normal;
   text-align: center;
   margin: 30px 10%;
-  font-size: 1.4rem;
-  font-weight: 300;
+  font-size: 0.9rem;
 }
 
 .main_two-pics {
@@ -269,160 +263,4 @@ a:hover {
   background-size: contain;
   width: 30px;
   height: 30px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-@media only screen and (max-width: 840px) {
-  .menu-button {
-    width: 35px;
-    height: 30px;
-    margin-right: 15px;
-    display: block;
-    position: fixed;
-    z-index: 1;
-  }
-
-  .hamburger {
-    display: block;
-    cursor: pointer;
-    z-index: 2;
-    margin-right: 10px;
-  }
-
-  .hamburger.active {
-    position: fixed;
-    /* right: 10px; */
-  }
-
-  .bar {
-    background-color: #000000;
-  }
-
-  .nav-menu {
-    position: fixed;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    right: -100%;
-    top: 0;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    margin-right: 0;
-  }
-
-  .avatar-menu {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    display: block;
-  }
-
-  .nav-item {
-    margin: 25px 0;
-  }
-
-  .nav-link {
-    color: white;
-    font-family: "Quicksand";
-    font-weight: 300;
-    font-size: 25px;
-    margin: 25px 0;
-  }
-
-  .nav-menu.active {
-    right: 0;
-  }
-
-  /* Main One */
-  .main_one {
-    width: 100%;
-    height: 90vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-
-  .main_one-text {
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding: 40px 0 0 0;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-
-  .main_one .main_one-text > p {
-    font-family: "Quicksand";
-    font-size: 1.4rem;
-    text-align: center;
-  }
-
-  .main_one .main_one-text > p > span {
-    font-family: "Montserrat";
-    font-weight: bold;
-  }
-
-  .main_one-button {
-    color: white;
-    background-color: black;
-    text-decoration: none;
-    margin: 40px 0 10px 0;
-    padding: 10px;
-    font-family: "Quicksand";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 30px;
-    border: 1px solid #040404;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    border-radius: 14px;
-  }
-
-  .main_one-button:active {
-    color: black;
-    background-color: white;
-    text-decoration: none;
-    margin: 40px 0 10px 0;
-    padding: 10px;
-    font-family: "Quicksand";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    border: 1px solid #040404;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    border-radius: 14px;
-  }
 }
