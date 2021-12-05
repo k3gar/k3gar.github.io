@@ -1,8 +1,6 @@
 import React from 'react';
 import menuLogoBlack from './img/menu_black_prueba.svg';
 import menuLogoWhite from './img/menu_white_prueba.svg';
-
-//import menuLogo from './img/menu-black.svg';
 import avatar from './img/flork-white.svg';
 import {useState} from 'react';
 
