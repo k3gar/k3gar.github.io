@@ -39,38 +39,35 @@ function App() {
   return (
     <div className="App">
         {/* <Header /> */}
-        <header>
-            <img src={logo ? menuLogoBlack : menuLogoWhite} alt="Prueba" className='hamburger' onClick={() => {prueba(); validar()}} />
-            <ul className="nav-menu">
-                <li className="nav-item">
-                    <a href="https://www.facebook.com/" className="nav-link">Home</a>
-                </li>
-                <li className="nav-item">
-                    <a href="https://www.facebook.com/" className="nav-link">About</a>
-                </li>
-                <Link to="/About-Me">About Me</Link>
-                <li className="nav-item">
-                    <a href="https://www.facebook.com/" className="nav-link">Blog</a>
-                </li>
-                <li className="nav-item">
-                    <a href="https://www.facebook.com/" className="nav-link">Projects</a>
-                </li>
-                <img src={avatar} alt="Flork saying hi" className="avatar-menu"/>
-            </ul>
-        </header>
 
         <Router>
+            <header>
+                <img src={logo ? menuLogoBlack : menuLogoWhite} alt="Prueba" className='hamburger' onClick={() => {prueba(); validar()}} />
+                <ul className="nav-menu">
+                    <Link to="/" className="nav-link" onClick={() => {prueba(); validar()}}>Home</Link>
+                    <Link to="/About-Me" className="nav-link" onClick={() => {prueba(); validar()}}>About Me</Link>
+                    <li className="nav-item">
+                        <a href="#" className="nav-link">Blog</a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="#" className="nav-link">Projects</a>
+                    </li>
+                    <img src={avatar} alt="Flork saying hi" className="avatar-menu"/>
+                </ul>
+            </header>
           <Switch>
             <Route path="/About-Me">
               <About />
             </Route>
+            <Route path="/">
+              <main className='main'>
+              <SectionOne />
+              <SectionTwo />
+              </main>
+            </Route>
           </Switch>
         </Router>
 
-        <main className='main'>
-        <SectionOne />
-        <SectionTwo />
-        </main>
         <Footer />
     </div>
   );

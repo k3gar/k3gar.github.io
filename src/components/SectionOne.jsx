@@ -7,7 +7,7 @@ const SectionOne = () => {
             <div className='main_one-text'>
                 <p>Let’s <span>imagine</span> it <br />
                 Let’s make it <span>happen</span></p>
-                <a className='main_one-button' href="#">Know About Me</a>
+                <a className='main_one-button' href="/About-Me">Know About Me</a>
             </div>
             <img src={pic1} alt="This is a pic of Flork saying hello" />
         </section>

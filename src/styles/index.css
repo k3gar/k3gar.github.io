@@ -4,6 +4,41 @@
   padding: 0;
 }
 
+header {
+  width: 100%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-family: "Quicksand";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 0 8px 0;
+  color: black;
+  font-weight: 300;
+}
+
+a:hover {
+  border-bottom: #111111 solid 1px;
+}
+
+h1 {
+  font-family: "Montserrat";
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -38,6 +73,10 @@ a {
 
 a:hover {
   border-bottom: #111111 solid 1px;
+}
+
+h1 {
+  font-family: "Montserrat";
 }
 
 /* .menu-button {
@@ -274,6 +313,41 @@ a:hover {
 * {
   margin: 0;
   padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-family: "Quicksand";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 0 8px 0;
+  color: black;
+  font-weight: 300;
+}
+
+a:hover {
+  border-bottom: #111111 solid 1px;
+}
+
+h1 {
+  font-family: "Montserrat";
 }
 
 @media only screen and (max-width: 840px) {
