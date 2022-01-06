@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd11b3af.chunk.css",
-    "main.js": "/static/js/main.ff885507.chunk.js",
-    "main.js.map": "/static/js/main.ff885507.chunk.js.map",
+    "main.css": "/static/css/main.cc31275c.chunk.css",
+    "main.js": "/static/js/main.2559a0d7.chunk.js",
+    "main.js.map": "/static/js/main.2559a0d7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.34a667fd.js",
     "runtime-main.js.map": "/static/js/runtime-main.34a667fd.js.map",
     "static/js/2.80981fb2.chunk.js": "/static/js/2.80981fb2.chunk.js",
     "static/js/2.80981fb2.chunk.js.map": "/static/js/2.80981fb2.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.dd11b3af.chunk.css.map": "/static/css/main.dd11b3af.chunk.css.map",
+    "static/css/main.cc31275c.chunk.css.map": "/static/css/main.cc31275c.chunk.css.map",
     "static/js/2.80981fb2.chunk.js.LICENSE.txt": "/static/js/2.80981fb2.chunk.js.LICENSE.txt",
     "static/media/css.3810c8be.png": "/static/media/css.3810c8be.png",
     "static/media/estrella.e55f506d.png": "/static/media/estrella.e55f506d.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.34a667fd.js",
     "static/js/2.80981fb2.chunk.js",
-    "static/css/main.dd11b3af.chunk.css",
-    "static/js/main.ff885507.chunk.js"
+    "static/css/main.cc31275c.chunk.css",
+    "static/js/main.2559a0d7.chunk.js"
   ]
 }
