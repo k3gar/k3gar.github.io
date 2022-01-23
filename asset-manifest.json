@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.6dcfb1aa.chunk.css",
-    "main.js": "/static/js/main.ef8c8619.chunk.js",
-    "main.js.map": "/static/js/main.ef8c8619.chunk.js.map",
+    "main.css": "/static/css/main.90f84b1e.chunk.css",
+    "main.js": "/static/js/main.1d9f8277.chunk.js",
+    "main.js.map": "/static/js/main.1d9f8277.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.34a667fd.js",
     "runtime-main.js.map": "/static/js/runtime-main.34a667fd.js.map",
     "static/js/2.a6705933.chunk.js": "/static/js/2.a6705933.chunk.js",
     "static/js/2.a6705933.chunk.js.map": "/static/js/2.a6705933.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6dcfb1aa.chunk.css.map": "/static/css/main.6dcfb1aa.chunk.css.map",
+    "static/css/main.90f84b1e.chunk.css.map": "/static/css/main.90f84b1e.chunk.css.map",
     "static/js/2.a6705933.chunk.js.LICENSE.txt": "/static/js/2.a6705933.chunk.js.LICENSE.txt",
     "static/media/css.3810c8be.png": "/static/media/css.3810c8be.png",
-    "static/media/estrella.e55f506d.png": "/static/media/estrella.e55f506d.png",
     "static/media/flork-white.cf09bb6f.svg": "/static/media/flork-white.cf09bb6f.svg",
     "static/media/index.css": "/static/media/twitter.ba015681.png",
     "static/media/html.6f28a9e2.png": "/static/media/html.6f28a9e2.png",
@@ -28,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.34a667fd.js",
     "static/js/2.a6705933.chunk.js",
-    "static/css/main.6dcfb1aa.chunk.css",
-    "static/js/main.ef8c8619.chunk.js"
+    "static/css/main.90f84b1e.chunk.css",
+    "static/js/main.1d9f8277.chunk.js"
   ]
 }
