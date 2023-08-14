@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5dcddd20.css",
+    "main.css": "/static/css/main.bbe9e1af.css",
     "main.js": "/static/js/main.cbbee93e.js",
     "static/media/SunnysideAgency.png": "/static/media/SunnysideAgency.f62d6b4b34d807e151ca.png",
     "static/media/Batatabit.png": "/static/media/Batatabit.47c499b34f01a61531c7.png",
@@ -26,11 +26,11 @@
     "static/media/mail.svg": "/static/media/mail.98c7d4c62138d82eb523805623d7d580.svg",
     "static/media/menu_black_prueba.svg": "/static/media/menu_black_prueba.3df3e24198fdb4f243ef1bf3cc482c48.svg",
     "static/media/menu_white_prueba.svg": "/static/media/menu_white_prueba.987deca1ab2a7e874d23862d2ef4124a.svg",
-    "main.5dcddd20.css.map": "/static/css/main.5dcddd20.css.map",
+    "main.bbe9e1af.css.map": "/static/css/main.bbe9e1af.css.map",
     "main.cbbee93e.js.map": "/static/js/main.cbbee93e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dcddd20.css",
+    "static/css/main.bbe9e1af.css",
     "static/js/main.cbbee93e.js"
   ]
 }
