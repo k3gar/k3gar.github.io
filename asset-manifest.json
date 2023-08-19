@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.bbe9e1af.css",
-    "main.js": "/static/js/main.cbbee93e.js",
+    "main.css": "/static/css/main.364cf9c3.css",
+    "main.js": "/static/js/main.34701ef4.js",
+    "static/media/Twitter-Clone.png": "/static/media/Twitter-Clone.e59f48a1adaeff0fb56e.png",
     "static/media/SunnysideAgency.png": "/static/media/SunnysideAgency.f62d6b4b34d807e151ca.png",
     "static/media/Batatabit.png": "/static/media/Batatabit.47c499b34f01a61531c7.png",
     "static/media/CardComponent.png": "/static/media/CardComponent.49a8ba3219a755a87e80.png",
@@ -9,6 +10,7 @@
     "static/media/portfolio-pic.png": "/static/media/portfolio-pic.84b514b9ce75f9c9d530.png",
     "static/media/about-me-pic.svg": "/static/media/about-me-pic.19960d8c05b2a1ff63a81791050a5727.svg",
     "static/media/GoogleClone.png": "/static/media/GoogleClone.671df836bec1d30fe093.png",
+    "static/media/react.png": "/static/media/react.809fed23bcdd686de66e.png",
     "static/media/ToDoApp.png": "/static/media/ToDoApp.ac8883dc76c71857dbaf.png",
     "static/media/github.png": "/static/media/github.9e094d235b4caa7c31fc.png",
     "static/media/css.png": "/static/media/css.3810c8be12bc2e0b7c71.png",
@@ -26,11 +28,11 @@
     "static/media/mail.svg": "/static/media/mail.98c7d4c62138d82eb523805623d7d580.svg",
     "static/media/menu_black_prueba.svg": "/static/media/menu_black_prueba.3df3e24198fdb4f243ef1bf3cc482c48.svg",
     "static/media/menu_white_prueba.svg": "/static/media/menu_white_prueba.987deca1ab2a7e874d23862d2ef4124a.svg",
-    "main.bbe9e1af.css.map": "/static/css/main.bbe9e1af.css.map",
-    "main.cbbee93e.js.map": "/static/js/main.cbbee93e.js.map"
+    "main.364cf9c3.css.map": "/static/css/main.364cf9c3.css.map",
+    "main.34701ef4.js.map": "/static/js/main.34701ef4.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbe9e1af.css",
-    "static/js/main.cbbee93e.js"
+    "static/css/main.364cf9c3.css",
+    "static/js/main.34701ef4.js"
   ]
 }
